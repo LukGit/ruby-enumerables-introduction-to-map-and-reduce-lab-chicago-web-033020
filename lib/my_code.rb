@@ -7,8 +7,8 @@ def map_to_negativize(source_array)
   while i < source_array.size do
     num = source_array[i] * -1
     i += 1
-    binding.pry
     array << num
   end
+  binding.pry
   array
 end
