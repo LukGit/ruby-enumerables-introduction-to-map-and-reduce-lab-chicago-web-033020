@@ -61,12 +61,16 @@ def reduce_to_total(source_array, starting_point)
   num
 end
 
-def reduce_to_total(source_array, starting_point)
+def reduce_to_all_true(source_array)
   i = 0
-  num = starting_point
+  tof = false
   while i < source_array.size do
-    num += source_array[i]
+    if source_array[i] 
+      tof = true
+    else
+      tof = false
+    end
     i += 1
   end
-  num
+  tof
 end
