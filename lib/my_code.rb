@@ -9,6 +9,5 @@ def map_to_negativize(source_array)
     i += 1
     array << num
   end
-  binding.pry
   array
 end
