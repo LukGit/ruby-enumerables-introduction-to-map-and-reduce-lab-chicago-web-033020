@@ -75,14 +75,12 @@ def reduce_to_all_true(source_array)
   tof
 end
 
-def reduce_to_all_true(source_array)
+def reduce_to_any_true(source_array)
   i = 0
   tof = false
   while i < source_array.size do
     if source_array[i] 
       tof = true
-    else
-      tof = false
     end
     i += 1
   end
