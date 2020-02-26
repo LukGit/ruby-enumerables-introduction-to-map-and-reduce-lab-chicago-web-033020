@@ -14,6 +14,5 @@ end
 
 def map_to_no_change(source_array)
   array = source_array
-  puts "array #{array}"
   array
 end
