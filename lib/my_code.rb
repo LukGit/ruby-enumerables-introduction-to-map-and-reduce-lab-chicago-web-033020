@@ -41,16 +41,6 @@ def map_to_square(source_array)
   array
 end
 
-# def reduce_to_total(source_array)
-#   i = 0
-#   num = 0
-#   while i < source_array.size do
-#     num += source_array[i]
-#     i += 1
-#   end
-#   num
-# end
-
 def reduce_to_total(source_array, starting_point=nil)
   i = 0
   num = 0
